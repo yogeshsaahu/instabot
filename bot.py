@@ -51,7 +51,7 @@ def bot():
                "#motivationalquotes #instagood #quote #follow #inspirationalquotes #like #success #bhfyp " \
                "#positivevibes #lovequotes #poetry "
 
-    bot.upload_photo("img.jpg", caption=hashtags)
+    bot.upload_photo("images/img.jpg", caption=hashtags)
 
 
 def run_bot():
