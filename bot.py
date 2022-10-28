@@ -46,7 +46,7 @@ def image_create():
 """ this is instagram bot section """
 def bot():
     bot = Bot()
-    bot.login(username="", password="")
+    bot.login(username="cyber_annex", password="teamannex360@")
     hashtags = " follow us - #quotes #love #motivation #life #quoteoftheday #instagram #inspiration " \
                "#motivationalquotes #instagood #quote #follow #inspirationalquotes #like #success #bhfyp " \
                "#positivevibes #lovequotes #poetry "
