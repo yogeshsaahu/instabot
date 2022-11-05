@@ -46,12 +46,12 @@ def image_create():
 """ this is instagram bot section """
 def bot():
     bot = Bot()
-    bot.login(username="cyber_annex", password="teamannex360@")
+    bot.login(username="enter your user name", password=" enter your password")
     hashtags = " follow us - #quotes #love #motivation #life #quoteoftheday #instagram #inspiration " \
                "#motivationalquotes #instagood #quote #follow #inspirationalquotes #like #success #bhfyp " \
                "#positivevibes #lovequotes #poetry "
 
-    bot.upload_photo("images/img.jpg", caption=hashtags)
+    bot.upload_photo("img.jpg", caption=hashtags)
 
 
 def run_bot():
@@ -61,8 +61,9 @@ def run_bot():
 
 
 if __name__ == "__main__":
-    schedule.every(12).hours.do(run_bot)
+    # schedule.every(12).hours.do(run_bot)
 
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
+    # while True:
+    #     schedule.run_pending()
+    #     time.sleep(1)
+    run = run_bot()
